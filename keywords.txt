@@ -1,0 +1,26 @@
+DGUS_Async	KEYWORD1
+DGUS_Animation	KEYWORD1
+
+begin	KEYWORD2
+update	KEYWORD2
+write	KEYWORD2
+read	KEYWORD2
+setPage	KEYWORD2
+getPage	KEYWORD2
+setBrightness	KEYWORD2
+getBrightness	KEYWORD2
+
+onEvent	KEYWORD2
+onStableEvent	KEYWORD2
+
+attachAnimation	KEYWORD2
+
+beginMulti	KEYWORD2
+add	KEYWORD2
+sendMulti	KEYWORD2
+
+start	KEYWORD2
+stop	KEYWORD2
+hide	KEYWORD2
+setSpeed	KEYWORD2
+getSpeed	KEYWORD2
