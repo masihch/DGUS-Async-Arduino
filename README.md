@@ -70,3 +70,27 @@ This library is intended for **Arduino-compatible boards** that support serial c
 Clone the repository into your Arduino libraries folder:
 ```bash
 git clone https://github.com/masihch/DGUS-Async-Arduino.git
+```
+---
+
+## Documentation (Wiki)
+
+Full documentation is available in the GitHub Wiki, including wiring guides, API reference, and step-by-step tutorials:
+
+- **Wiki Home:**  
+  https://github.com/masihch/DGUS-Async-Arduino/wiki
+
+### Getting Started
+- Installation & wiring:  
+  https://github.com/masihch/DGUS-Async-Arduino/wiki/Getting-Started
+
+### API Reference
+- Core API overview + small code snippets for each function:  
+  https://github.com/masihch/DGUS-Async-Arduino/wiki/API-Reference
+
+### Examples Guide
+- Explanation of each example and how to run it:  
+  https://github.com/masihch/DGUS-Async-Arduino/wiki/Examples
+
+> Tip: If you are new to DGUS / DWIN displays, start with **Getting Started**.
+
