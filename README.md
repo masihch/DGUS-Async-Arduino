@@ -66,6 +66,7 @@ This library is intended for **Arduino-compatible boards** that support serial c
    `Sketch > Include Library > Add .ZIP Library...`
 4. Select the downloaded ZIP file
 
+---
 ### Git Clone
 Clone the repository into your Arduino libraries folder:
 ```bash
