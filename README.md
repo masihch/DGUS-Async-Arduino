@@ -6,11 +6,11 @@
 <h1 align="center">DGUS-Async</h1>
 
 <p align="center">
-  Async Arduino library for DWIN / DGUS HMI displays on ESP32
+  Async Arduino library for DWIN / DGUS HMI displays
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/platform-ESP32-blue" alt="Platform: ESP32">
+  <img src="https://img.shields.io/badge/platform-Arduino%20Compatible-blue" alt="Platform: Arduino Compatible">
   <img src="https://img.shields.io/badge/license-MIT-green" alt="License: MIT">
   <img src="https://img.shields.io/badge/status-active-success" alt="Status: Active">
 </p>
@@ -19,16 +19,16 @@
 
 ## Overview
 
-**DGUS-Async** is a non-blocking Arduino library for **DWIN / DGUS serial HMI displays**, designed for **ESP32** projects that need responsive and clean display communication without relying on `delay()`-based workflows.
+**DGUS-Async** is a non-blocking Arduino library for **DWIN / DGUS serial HMI displays**, designed for Arduino-compatible boards that need responsive and clean display communication without relying on `delay()`-based workflows.
 
-It provides an asynchronous, queue-based approach for sending commands, reading values, handling page changes, and building more scalable UI-driven embedded applications.
+It provides an asynchronous, queue-based approach for sending commands, reading values, handling page changes, and building more scalable UI-driven embedded applications across a wide range of boards supported by the Arduino ecosystem.
 
 ---
 
 ## Features
 
 - Non-blocking communication architecture
-- Designed for ESP32 hardware UART
+- Designed for Arduino-compatible platforms
 - Queue-based command handling
 - Read and write DGUS variables
 - Page tracking support
@@ -41,18 +41,19 @@ It provides an asynchronous, queue-based approach for sending commands, reading 
 
 Many DGUS examples found online are based on blocking logic and frequent use of `delay()`, which can quickly become difficult to maintain in real embedded projects.
 
-**DGUS-Async** is built for modern ESP32 applications where the display should work smoothly alongside sensors, networking, automation logic, and other time-sensitive tasks.
+**DGUS-Async** is built for modern embedded applications where the display should work smoothly alongside sensors, communication stacks, control logic, and other time-sensitive tasks.
 
 ---
 
 ## Supported Hardware
 
-Currently tested and focused on:
+This library is intended for **Arduino-compatible boards** that support serial communication, including:
 
 - **ESP32**
-- **DWIN / DGUS serial displays**
+- **Arduino boards**
+- Other boards supported by the Arduino ecosystem
 
-> This library is currently optimized for ESP32-based projects using hardware serial communication.
+> Any board capable of running Arduino-based code and communicating with a DGUS display over serial can potentially use this library.
 
 ---
 
@@ -68,4 +69,4 @@ Currently tested and focused on:
 ### Git Clone
 Clone the repository into your Arduino libraries folder:
 ```bash
-git clone https://github.com/YOUR_USERNAME/DGUS-Async-Arduino.git
+git clone https://github.com/masihch/DGUS-Async-Arduino.git
