@@ -94,3 +94,18 @@ Full documentation is available in the GitHub Wiki, including wiring guides, API
 
 > Tip: If you are new to DGUS / DWIN displays, start with **Getting Started**.
 
+---
+
+## Support / Contact
+
+If you need help with this library or working with **DWIN / DGUS** displays:
+
+- **Documentation (Wiki):**  
+  https://github.com/masihch/DGUS-Async-Arduino/wiki
+
+- **GitHub Issues (recommended for bugs & feature requests):**  
+  https://github.com/masihch/DGUS-Async-Arduino/issues
+
+- **WhatsApp (direct help):**  
+  https://wa.me/+989925786469
+
